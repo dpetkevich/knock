@@ -1,0 +1,55 @@
+<!-- 
+  This template gets placed in the Pet tab's <nav-view> directive.
+  It was wired up in the app config (app.js) 
+  The 'pets' data comes from its $scope within PetIndexCtrl (controller.js)
+-->
+<view title="Index">
+
+<div class="bar bar-header">
+    <a class="button button-icon icon ion-camera"  href='#/image'></a>
+    <div class="h1 title">Makmak</div>
+    <button class="button button-icon icon ion-levels"></button>
+</div>
+
+<content has-header="true" >
+  <list>
+    <div class="item item-divider">
+        Mysteries
+    </div>
+    <a class="item item-avatar" href="#">
+       <img src="venkman.jpg">
+       <h2>Wenzel Juice</h2>
+         <p>Hold to View</p>
+     </a>
+     <a class="item item-avatar" href="#">
+       <img src="venkman.jpg">
+       <h2>Kap'n Crunch<span class='guessTextStatus'>eludes you</span></h2>
+         <p>Tap to Send a Message</p>
+     </a>
+     <a class="item item-avatar" href="#">
+       <img src="venkman.jpg">
+       <h2>Zola Quao<span class='guessTextStatus'>guessed wrong</span></h2>
+         <p>Tap to Send another Clue</p>
+     </a>
+     <a class="item item-avatar" href="#">
+       <img src="venkman.jpg">
+       <h2>Paul Zamsky<span class='guessTextStatus'>is guessing</span></h2>
+         <p>Tap to Send another Clue</p>
+     </a>
+
+   <div class="item item-divider">
+      Closed Cases
+    </div>
+        <a class="item item-avatar" href="#">
+       <img src="venkman.jpg">
+       <h2>Kevin Ho<span class='guessTextStatus'>found you out</span></h2>
+         <p>Tap to Send a Message</p>
+     </a>
+      <a class="item item-avatar" href="#">
+       <img src="venkman.jpg">
+       <h2>Pat Blute<span class='guessTextStatus'>was Strongbad</span></h2>
+         <p>Tap to Send a Message</p>
+     </a>
+  </list>
+</content>
+</view>
